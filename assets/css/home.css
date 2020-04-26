@@ -1,6 +1,8 @@
 header {
+    padding-bottom: 10px;
     color: white;
     height: 20px;
+    width: 100%;
 }
 
 body {
@@ -38,4 +40,9 @@ body {
 
 #mother {
     background-color: white;
+}
+
+#session-token {
+    color: black;
+    margin-bottom: unset;
 }

@@ -23,7 +23,7 @@
                         <a class="nav-link" href="/projetofinal/views/admin/dashboard.php">Dashboard</a>
                         <ul class="nav ml-auto">
                             <li class="nav-item"> 
-                                <p> <?php echo "Olá, ".$_SESSION['name']."!" ?> </p>
+                                <p id="session-token"> <?php echo "Olá, ".$_SESSION['name']."!" ?> </p>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link active" href="/projetofinal/user/logout">Sair</a>
@@ -35,10 +35,14 @@
         </div>
     </header>
     <body>
-        <div class="flex-box container-box">
-            <div class="content-box"> 
-                <a class="btn btn-info" href="/projetofinal/company/index" role="button">Listar empresas</a>
-                <a class="btn btn-info" href="/projetofinal/company/create" role="button">Cadastrar empresa</a>
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-3">
+                    <div class="content-box"> 
+                        <a class="btn btn-info" href="/projetofinal/company/index" role="button">Listar empresas</a>
+                        <a class="btn btn-info" href="/projetofinal/company/create" role="button">Cadastrar empresa</a>
+                    </div>
+                </div>
             </div>
         </div>
     </body>

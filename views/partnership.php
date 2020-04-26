@@ -15,18 +15,20 @@
                     <nav class="nav">
                         <a class="nav-link" href="/projetofinal/home/home">Início</a>
                         <a class="nav-link" href="/projetofinal/home/partnership">Parcerias</a>
-                        <ul class="nav ml-auto">
                             <?php if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true){ ?>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/projetofinal/views/admin/dashboard.php">Dashboard</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="/projetofinal/user/logout">Sair</a>
-                            </li>
+                            <a class="nav-link" href="/projetofinal/views/admin/dashboard.php">Dashboard</a>
+                            <ul class="nav ml-auto">
+                                <li class="nav-item"> 
+                                    <p id="session-token"> <?php echo "Olá, ".$_SESSION['name']."!" ?> </p>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="/projetofinal/user/logout">Sair</a>
+                                </li>
                             <?php } else { ?>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="/projetofinal/home/login">Login</a>
-                            </li>
+                            <ul class="nav ml-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="/projetofinal/home/login">Login</a>
+                                </li>
                             <?php } ?>
                         </ul>
                     </nav>

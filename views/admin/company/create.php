@@ -24,7 +24,7 @@
                         <a class="nav-link" href="/projetofinal/views/admin/dashboard.php">Dashboard</a>
                         <ul class="nav ml-auto">
                             <li class="nav-item"> 
-                                <p> <?php echo "Olá, ".$_SESSION['name']."!" ?> </p>
+                                <p id="session-token"> <?php echo "Olá, ".$_SESSION['name']."!" ?> </p>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link active" href="/projetofinal/user/logout">Sair</a>
@@ -36,14 +36,18 @@
         </div>
     </header>
     <body>
-        <div class="flex-box container-box">
-            <div class="content-box">
-                <h1 id="register-label">Cadastro de Empresa</h1>
-                <form class="login-form" action="/projetofinal/company/store" method="post">
-                    <input class="input-box" name="name" placeholder="Nome">
-                    <input class="input-box" name="federation" placeholder="Federação">          
-                    <button type="submit" class="btn btn-primary"> Cadastrar </button>        
-                </form>
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-md-4 col-md-offset-4">
+                    <div class="content-box">
+                        <h1 id="register-label">Cadastro de Empresa</h1>
+                        <form class="login-form" action="/projetofinal/company/store" method="post">
+                            <input class="input-box" name="name" placeholder="Nome">
+                            <input class="input-box" name="federation" placeholder="Federação">          
+                            <button type="submit" class="btn btn-primary"> Cadastrar </button>        
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
     </body>

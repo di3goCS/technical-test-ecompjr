@@ -1,59 +1,41 @@
 header {
     padding-bottom: 10px;
     color: white;
-    height: 20px;
     width: 100%;
 }
 
 body {
-    background-color: #2a78d1;
+    background-color:#2a78d1;
 }
 
 table tr th, td {
     text-align: center;
     font-family: Roboto;
-    color: whitesmoke;
+    color: black;
     line-height: 20px;
     vertical-align: bottom;
 }
-
-.table {
-    padding-top: 10%;
-    background-color:rgb(4, 26, 26);
-    border-radius: 10px;
-}
-/*table {
-    border-collapse: collapse;
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-table, th, td {
-    border: 1px solid #2a78d1;
-    background-color: rgb(4, 26, 26);
-}
-
-table, tr, th {
-    font-size: 24px;
-    color: whitesmoke;
-    font-family: Roboto;
-    align-self: center;
-}*/
 
 body .text-div {
     padding-top: 10%;
     text-align: center;
 }
 
-.flex-box {
+.table {
+    padding-top: 10%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/*.flex-box {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+}*/
   
-.container-box {
+/*.container-box {
     height: 300px;
-}
+}*/
   
 .content-box {
     background-color: rgb(4, 26, 26);
@@ -64,16 +46,6 @@ body .text-div {
     height: 200px;
     font-family: Roboto;
     border-radius: 5px;
-}
-
-.nav {
-    color: black;
-    background-color: rgba(255, 255, 255, 0.986);
-}
-
-.nav-spaced {
-    justify-content: end;
-    padding-left: 900px;
 }
 
 .nav-item:hover{
@@ -106,4 +78,9 @@ body .text-div {
 
 #mother {
     background-color: white;
+}
+
+#session-token {
+    color: black;
+    margin-bottom: unset;
 }

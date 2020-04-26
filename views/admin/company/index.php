@@ -25,7 +25,7 @@
                         <a class="nav-link" href="/projetofinal/views/admin/dashboard.php">Dashboard</a>
                         <ul class="nav ml-auto">
                             <li class="nav-item"> 
-                                <p> <?php echo "Olá, ".$_SESSION['name']."!" ?> </p>
+                                <p id="session-token"> <?php echo "Olá, ".$_SESSION['name']."!" ?> </p>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link active" href="/projetofinal/user/logout">Sair</a>
@@ -44,7 +44,7 @@
             ?>
                 <h1 class="text-div"> Não há empresas cadastradas. </h1>
             <?php } else { ?>
-                <div class="table-responsive">
+                <div class="table-responsive table-borderless">
                     <table class="table">
                         <tr>
                             <th>Nome</th>
@@ -75,8 +75,10 @@
             <?php
                 }
             ?>
-            <div class="flex-box">
-                <a class="btn btn-info" href="/projetofinal/company/create" role="button">Cadastrar empresa</a>
+            <div class="row justify-content-center">
+                <div class="col-3">
+                    <a class="btn btn-light" href="/projetofinal/company/create" role="button">Cadastrar empresa</a>
+                </div>
             </div>
             </br>
         </div>
