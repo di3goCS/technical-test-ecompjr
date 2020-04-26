@@ -1,0 +1,103 @@
+header {
+    padding-bottom: 10px;
+    color: white;
+    height: 20px;
+    width: 100%;
+}
+
+body {
+    background-color: #2a78d1;
+}
+
+table tr th, td {
+    text-align: center;
+    font-family: Roboto;
+    color: whitesmoke;
+    line-height: 20px;
+    vertical-align: bottom;
+}
+
+.table {
+    padding-top: 10%;
+    background-color:rgb(4, 26, 26);
+    border-radius: 10px;
+}
+/*table {
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+table, th, td {
+    border: 1px solid #2a78d1;
+    background-color: rgb(4, 26, 26);
+}
+
+table, tr, th {
+    font-size: 24px;
+    color: whitesmoke;
+    font-family: Roboto;
+    align-self: center;
+}*/
+
+body .text-div {
+    padding-top: 10%;
+    text-align: center;
+}
+
+.flex-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.container-box {
+    height: 300px;
+}
+  
+.content-box {
+    background-color: rgb(4, 26, 26);
+    transition: 0.3s;
+    text-align: center;
+    padding-top: 25px;
+    width: 300px;
+    height: 200px;
+    font-family: Roboto;
+    border-radius: 5px;
+}
+
+.nav {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.986);
+}
+
+.nav-spaced {
+    justify-content: end;
+    padding-left: 900px;
+}
+
+.nav-item:hover{
+    font-size: 20px;
+}
+
+.input-box {
+    width: 250px;
+    padding-left: 5px;
+    margin-bottom: 5px;
+    border: 2px rgba(0, 0, 0, 0.788);
+    border-radius: 5px;
+}
+
+.btn {
+    width: 250px;
+}
+
+#register-label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    color: white;
+}
+
+#table-btn {
+    width: 100px;
+}

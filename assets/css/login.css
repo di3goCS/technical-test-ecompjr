@@ -1,0 +1,52 @@
+body {
+    background-image: url("../img/alex-kotliarskyi-QBpZGqEMsKg-unsplash.png");
+    background-size: cover;
+    background-color: #cccccc;
+}
+
+.flex-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.container-box {
+    height: 300px;
+}
+  
+.content-box {
+    box-shadow: 0 8px 16px 0 rgba(185, 181, 181, 0.568);
+    transition: 0.3s;
+    text-align: center;
+    width: 300px;
+    font-family: Roboto;
+    border-radius: 5px;
+}
+
+
+.input-box {
+    width: 250px;
+    padding-left: 5px;
+    margin-bottom: 5px;
+    border: 2px rgba(0, 0, 0, 0.521);
+    border-radius: 5px;
+}
+
+.btn {
+    margin-top: 15px;
+    width: 250px
+}
+
+.nav {
+    background-color: rgba(255, 255, 255, 0.986);
+}
+
+.nav-item:hover{
+    font-size: 20px;
+}
+
+#login-label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+

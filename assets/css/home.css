@@ -1,0 +1,37 @@
+header {
+    color: white;
+    height: 20px;
+}
+
+body {
+    background-color: #2a78d1;
+}
+
+.flex-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.container-box {
+    height: 300px;
+}
+  
+.content-box {
+    text-align: center;
+    width: 200px;
+    font-family: Roboto;
+}
+
+.btn {
+    margin-top: 10px;
+    width: 250px
+}
+
+.nav {
+    background-color: rgba(255, 255, 255, 0.986);
+}
+
+.nav-item:hover{
+    font-size: 20px;
+}
