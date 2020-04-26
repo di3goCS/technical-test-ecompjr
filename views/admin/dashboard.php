@@ -16,7 +16,7 @@
     <header>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12" id="mother">
                     <nav class="nav">
                         <a class="nav-link" href="/projetofinal/home/home">Início</a>
                         <a class="nav-link" href="/projetofinal/home/partnership">Parcerias</a>

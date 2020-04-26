@@ -35,3 +35,7 @@ body {
 .nav-item:hover{
     font-size: 20px;
 }
+
+#mother {
+    background-color: white;
+}

@@ -1,6 +1,6 @@
 <?php session_start(); ?>
 
-<html lang="en">
+<html lang="pt-br">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,26 +9,30 @@
         <title>Parcerias</title>
     </head>
     <header>
-        <ul class="nav justify-content-end">
-            <li class="nav-item">
-                <a class="nav-link" href="/projetofinal/home/home">Início</a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link active" href="/projetofinal/home/partnership">Parcerias</a>
-            </li>
-            <?php if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true){ ?>
-                <li class="nav-item">
-                    <a class="nav-link" href="/projetofinal/views/admin/dashboard.php">Dashboard</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/projetofinal/user/logout">Sair</a>
-                </li>
-            <?php } else { ?>
-                <li class="nav-item">
-                    <a class="nav-link" href="/projetofinal/home/login">Login</a>
-                </li>
-            <?php } ?>
-        </ul>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12" id="mother">
+                    <nav class="nav">
+                        <a class="nav-link" href="/projetofinal/home/home">Início</a>
+                        <a class="nav-link" href="/projetofinal/home/partnership">Parcerias</a>
+                        <ul class="nav ml-auto">
+                            <?php if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true){ ?>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/projetofinal/views/admin/dashboard.php">Dashboard</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="/projetofinal/user/logout">Sair</a>
+                            </li>
+                            <?php } else { ?>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="/projetofinal/home/login">Login</a>
+                            </li>
+                            <?php } ?>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
     </header>
     <body>
         

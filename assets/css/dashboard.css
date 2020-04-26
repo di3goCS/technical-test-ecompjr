@@ -89,6 +89,7 @@ body .text-div {
 }
 
 .btn {
+    margin-top: 5%;
     width: 250px;
 }
 
@@ -99,5 +100,10 @@ body .text-div {
 }
 
 #table-btn {
+    margin-top: unset;
     width: 100px;
+}
+
+#mother {
+    background-color: white;
 }
