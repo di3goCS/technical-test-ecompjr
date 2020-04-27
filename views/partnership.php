@@ -129,7 +129,7 @@
                             <img class="d-block w-100" src="../assets/img/partners/ultragaz.png" alt="Ultragaz">
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="../assets/img/partners/unilever.png" alt="Unilever">
+                            <img class="d-block w-100 mx-auto" src="../assets/img/partners/unilever.png" alt="Unilever" height="200px">
                         </div>
                         <div class="carousel-item">
                             <img class="d-block w-100" src="../assets/img/partners/xp-inc.png" alt="XP Inc.">

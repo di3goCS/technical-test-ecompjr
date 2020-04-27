@@ -182,15 +182,11 @@
             <div class="row justify-content-between">
                 <div class="col-lg-12 col-sm-12 column-4">
                     <div id="contact" class="row justify-content-between">
-                        <div class="col-4">
+                        <ul id="contact" class="justify-content-between">
                             <a href="https://www.instagram.com/bjnoinsta/" target="_blank"><img src="../assets/img/instagram.png" class="img-fluid icon" alt="Instagram"> </a>
-                        </div>
-                        <div class="col-4">
                             <a href="https://www.facebook.com/brasiljunior/" target="_blank"><img src="../assets/img/facebook.png" class="img-fluid icon" alt="Facebook"> </a>
-                        </div>
-                        <div class="col-4">
                             <a href="https://www.youtube.com/channel/UCJpa3dGqxDUkZq3tFDf0l4Q" target="_blank"><img src="../assets/img/youtube.png" class="img-fluid icon" alt="Youtube"> </a>
-                        </div>
+                        </ul>
                     </div>
                 </div>
             </div>

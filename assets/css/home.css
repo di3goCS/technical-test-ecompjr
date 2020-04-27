@@ -109,8 +109,10 @@ h1 img {
     padding-bottom: 2%;
 }
 
-.carousel-item img {
-    width: 300px;
+
+.carousel-inner > .carousel-item > img { 
+    width: 100%;
+    margin: auto;
 }
 
 .hvr-grow {
