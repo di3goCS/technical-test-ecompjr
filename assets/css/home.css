@@ -54,7 +54,7 @@ h1 img {
 
 .column-2 {
     padding: 1% 4%;
-    background-color: rgba(31, 165, 91, 0.856);
+    background-color: rgba(32, 170, 94, 0.856);
 }
 
 .column-3 {
@@ -64,25 +64,21 @@ h1 img {
 
 .column-4 {
     padding: 1% 4%;
-    background-color: rgba(218, 80, 16, 0.856);
+    background-color: rgb(255, 255, 255);
 }
 
 .column-5 {
     padding: 1% 4%;
-    background-color: rgba(165, 19, 179, 0.856);
+    background-color: rgba(26, 138, 132, 0.856);
 }
 
 .column-6 {
     padding: 1% 4%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(29, 145, 81, 0.856);
 }
 
 .subcolumn {
     padding: 1%;
-}
-
-.subcolum:hover {
-
 }
 
 .sub-text {
@@ -108,13 +104,9 @@ h1 img {
     text-align: start;
 }
 
-#mother {
-    background-color: white;
-}
-
-#session-token {
-    color: black;
-    margin-bottom: unset;
+.icon {
+    width: 10%;
+    padding-bottom: 2%;
 }
 
 .hvr-grow {
@@ -127,11 +119,31 @@ h1 img {
     transition-duration: 0.3s;
     -webkit-transition-property: transform;
     transition-property: transform;
-  }
-  .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
-  }
+}
+
+#mother {
+    background-color: white;
+}
+
+#session-token {
+    color: black;
+    margin-bottom: unset;
+}
+
+#white-background {
+    color: black;
+}
+
+#contact {
+    display: inline;
+    margin-left: 2%;
+}
+
+
 
 
 

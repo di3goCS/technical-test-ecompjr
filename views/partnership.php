@@ -38,6 +38,6 @@
         </div>
     </header>
     <body>
-        
+        <!-- Fazer carousel pras parcerias --->
     </body>
 </html>
