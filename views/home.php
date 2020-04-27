@@ -104,7 +104,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-12 column-2 justify-content-center">
+                <div class="col-lg-12 column-6 justify-content-center">
                     <h1 class="principal-text"> O que nos torna únicos? </h1>
                     <p class="sub-text"> "Representar e potencializar o Movimento Empresa Júnior brasileiro como agente 
                         de formação de empreendedores comprometidos e capazes de transformar o país" </p>
@@ -176,7 +176,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
-                    <h1 class="principal-text"> Contatos: </h1>
+                    <h1 class="principal-text"> Acompanhe-nos nas redes sociais: </h1>
                 </div>
             </div>
             <div class="row justify-content-between">
