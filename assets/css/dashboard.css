@@ -28,7 +28,7 @@ body .text-div {
 }
   
 .content-box {
-    background-color: rgb(4, 26, 26);
+    background-color: rgb(220, 233, 233);
     transition: 0.3s;
     text-align: center;
     padding-top: 25px;
@@ -58,7 +58,7 @@ body .text-div {
 #register-label {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 22px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 #table-btn {
