@@ -5,7 +5,7 @@ header {
 }
 
 body {
-    background-color:#2a78d1;
+    background-color:#245d7e;
 }
 
 table tr th, td {
@@ -26,16 +26,6 @@ body .text-div {
     background-color: white;
     border-radius: 10px;
 }
-
-/*.flex-box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}*/
-  
-/*.container-box {
-    height: 300px;
-}*/
   
 .content-box {
     background-color: rgb(4, 26, 26);

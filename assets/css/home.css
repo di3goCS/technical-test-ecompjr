@@ -1,12 +1,21 @@
+/* Imports de fontes */
+/*Raleway*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+/*Arimo*/
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&display=swap');
+
 header {
     padding-bottom: 10px;
     color: white;
-    height: 20px;
     width: 100%;
 }
 
 body {
-    background-color: #2a78d1;
+    background-color: #245d7e;
+}
+
+h1 img {
+    justify-self: end;
 }
 
 .flex-box {
@@ -38,6 +47,67 @@ body {
     font-size: 20px;
 }
 
+.column-1 {
+    padding: 1% 4%;
+    background-color: rgba(192, 177, 45, 0.89);
+}
+
+.column-2 {
+    padding: 1% 4%;
+    background-color: rgba(31, 165, 91, 0.856);
+}
+
+.column-3 {
+    padding: 1% 4%;
+    background-color: rgba(28, 168, 161, 0.856);
+}
+
+.column-4 {
+    padding: 1% 4%;
+    background-color: rgba(218, 80, 16, 0.856);
+}
+
+.column-5 {
+    padding: 1% 4%;
+    background-color: rgba(165, 19, 179, 0.856);
+}
+
+.column-6 {
+    padding: 1% 4%;
+    background-color: rgb(255, 255, 255);
+}
+
+.subcolumn {
+    padding: 1%;
+}
+
+.subcolum:hover {
+
+}
+
+.sub-text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    color: black;
+}
+
+.principal-text {
+    font-family: 'Arimo', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.secundary-heading {
+    color: black;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.secundary-text {
+    font-size: 16px;
+    color: black;
+    text-align: start;
+}
+
 #mother {
     background-color: white;
 }
@@ -46,3 +116,23 @@ body {
     color: black;
     margin-bottom: unset;
 }
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+
+
+

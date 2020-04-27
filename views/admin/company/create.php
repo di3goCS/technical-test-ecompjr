@@ -38,7 +38,7 @@
     <body>
         <div class="container-fluid">
             <div class="row justify-content-center">
-                <div class="col-md-4 col-md-offset-4">
+                <div class="col-4 col-md-offset-4">
                     <div class="content-box">
                         <h1 id="register-label">Cadastro de Empresa</h1>
                         <form class="login-form" action="/projetofinal/company/store" method="post">
