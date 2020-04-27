@@ -42,6 +42,10 @@
             <div class="row justify-content-center">
                 <div class="col-12">
                     <h1 class="principal-text"> Mantenedores </h1>
+                    <p class="sub-text"> O Programa Mantenedores insere as organizações em todas as
+                        interações e projetos estratégicos da Brasil Júnior para gerar conexões e uma experiência transformadora
+                        com o público universitário.</p>
+                     <p class="sub-text"> Focando em fortalecer a marca empregadora e gerar maior conexão as oportunidades de carreiras.</p>
                 </div>
                 <div id="carouselMantenedores" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
@@ -93,6 +97,10 @@
             <div class="row justify-content-center">
                 <div class="col-12">
                     <h1 class="principal-text"> Patrocinadores </h1>
+                    <p class="sub-text"> O Programa Patrocinadores envolve a participação em determinadas ações 
+                        adaptadas a realidade do parceiro para suprir suas necessidades e expectativas. </p>
+                    <p class="sub-text"> O parceiro participa de quase todas as interações da Brasil Júnior,
+                        exceto do Encontro Nacional de Empresas Juniores. </p>
                 </div>
                 <div id="carouselPatrocinadores" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
@@ -140,6 +148,8 @@
             <div class="row justify-content-center">
                 <div class="col-12">
                     <h1 class="principal-text"> Institucionais </h1>
+                    <p class="sub-text">Os parceiros institucionais da Brasil Júnior funcionam como 
+                        grandes mentores alavancando determinados projetos estratégicos por meio de conhecimentos reais.</p>
                 </div>
                 <div id="carouselInstitucionais" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
