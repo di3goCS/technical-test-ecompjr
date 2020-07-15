@@ -5,15 +5,15 @@
 <p> Na etapa técnica do processo seletivo, foi solicitado o desenvolvimento de um sistema de apresentação da 
 <a href="https://www.brasiljunior.org.br/">Brasil Júnior</a>, apresentando suas informações e permitindo o cadastro e login de usuários. </p>
 
-### Front-end (HTML, CSS):
-#### - Informações sobre a Brasil Júnior;
-#### - Informações sobre o Movimento Empresa Júnior;
-#### - Parceiros;
-#### - Área de contatos.
+#### Front-end (HTML, CSS):
+- Informações sobre a Brasil Júnior;
+- Informações sobre o Movimento Empresa Júnior;
+- Parceiros;
+- Área de contatos.
 
-### Back-end (PHP):
-#### - Cadastro e login de usuário administrador;
-#### - CRUD de empresas;
+#### Back-end (PHP):
+- Cadastro e login de usuário administrador;
+- CRUD de empresas;
 
 
 
