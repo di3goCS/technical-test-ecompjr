@@ -13,7 +13,7 @@
 
 #### Back-end (PHP):
 - Cadastro e login de usuário administrador;
-- CRUD de empresas;
+- CRUD de empresas juniores;
 
 
 
